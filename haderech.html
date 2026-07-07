@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>הדרך</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "David Libre", "Noto Serif Hebrew", "Times New Roman", serif;
+      background: #faf9f7;
+      color: #2c2c2c;
+      line-height: 1.8;
+      min-height: 100vh;
+      padding: 3rem 1.5rem;
+    }
+
+    .page {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.75rem;
+    }
+
+    .credits {
+      font-size: 0.95rem;
+      color: #666;
+      font-style: italic;
+    }
+
+    .lyrics {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+
+    .verse {
+      font-size: 1.1rem;
+      text-align: center;
+    }
+
+    .verse p + p {
+      margin-top: 0.5rem;
+    }
+
+    @media (max-width: 700px) {
+      .lyrics {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>הדרך</h1>
+      <p class="credits">לחן: עמית פוזננסקי, מילים: דיאנה גולן</p>
+    </header>
+
+    <section class="lyrics" aria-label="מילות השיר">
+      <div class="verse">
+        <p>מֵי הַנַּחַל מְפַכִּים בְּזִרְמֵי אַהֲבָה,</p>
+        <p>בֵּין הָרִים וּבְקָעוֹת, בְּכָל עֵת בַּשָּׁנָה.</p>
+        <p>בְּלֵילוֹת סְעָרָה לְאִטּוֹ</p>
+        <p>הוּא זוֹרֵם דַּרְכּוֹ – פְּתַלְתַּלָּה.</p>
+      </div>
+
+      <div class="verse">
+        <p>יֵשׁ וְנִדְמֶה אָבְדָה לוֹ הַדֶּרֶךְ,</p>
+        <p>תּוֹהֶה, מָה יִהְיֶה בְּסוֹפוֹ?</p>
+        <p>מֵימָיו הַזַּכִּים זוֹהֲרִים</p>
+        <p>כְּשָׁתִיל הַגּוֹמֵעַ נְטִיפֵי אוֹר.</p>
+      </div>
+
+      <div class="verse">
+        <p>יָמָּה בַּמִּסְתּוֹר, בֵּין בִּקְעָה לְהַר</p>
+        <p>נָחָה זְהוּבַת תַּלְתַּל,</p>
+        <p>מַמְתִּינָה כִּנֶּרֶת</p>
+        <p>לְיַרְדֵּן אֲהוּבָהּ.</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
