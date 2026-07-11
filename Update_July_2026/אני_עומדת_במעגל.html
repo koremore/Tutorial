@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>אֲנִי עוֹמֶדֶת בַּמַּעְגָּל</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "David", "David Libre", "Times New Roman", serif;
+      background: #ffffff;
+      color: #000000;
+      min-height: 100vh;
+      padding: 2rem 1.25rem;
+      direction: rtl;
+    }
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .header {
+      margin-bottom: 1.75rem;
+      text-align: center;
+    }
+    h1.title {
+      font-family: "David", "David Libre", "Times New Roman", serif;
+      font-size: 26pt;
+      font-weight: 700;
+      margin-bottom: 0.35rem;
+      text-align: center;
+    }
+    .credits {
+      font-family: "David", "David Libre", "Times New Roman", serif;
+      font-size: 22pt;
+      font-weight: 400;
+      text-align: center;
+      line-height: 1.35;
+      margin: 0.08rem 0;
+    }
+    .lyrics {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.75rem 2rem;
+      justify-content: center;
+      align-items: start;
+      text-align: center;
+    }
+    .verse {
+      font-family: "David", "David Libre", "Times New Roman", serif;
+      font-size: 20pt;
+      line-height: 1.45;
+      text-align: center;
+    }
+    .verse p {
+      margin: 0.15rem 0;
+      text-align: center;
+    }
+    @media (max-width: 800px) {
+      .lyrics { grid-template-columns: 1fr; gap: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <h1 class="title">אֲנִי עוֹמֶדֶת בַּמַּעְגָּל</h1>
+      <p class="credits">לַחַן: עֲמָמִי</p>
+      <p class="credits">מִלִּים: גֹּרִית קַדְמָן</p>
+    </header>
+    <section class="lyrics" aria-label="מילות השיר">
+      <div class="verse">
+        <p>בַּיַּעַר, בַּיַּעַר, בַּיַּעַר</p>
+        <p>נִרְקֹד, נִרְקֹד</p>
+        <p>בַּיַּעַר, בַּיַּעַר, בַּיַּעַר</p>
+        <p>נִרְקֹד!</p>
+      </div>
+      <div class="verse">
+        <p>אֲנִי עוֹמֶדֶת בַּמַּעְגָּל</p>
+        <p>וּמַבִּיטָה סְבִיבִי</p>
+        <p>אֲנִי מוֹשִׁיטָה אֶת יָדִי</p>
+        <p>לַחֲבֵרָה שֶׁלִּי</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
