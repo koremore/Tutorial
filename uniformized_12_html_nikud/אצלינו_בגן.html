@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>אֶצְלֵנוּ בַּגַּן</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "David", "David Libre", "Times New Roman", serif;
+      background: #ffffff;
+      color: #000000;
+      min-height: 100vh;
+      padding: 2rem 1.25rem;
+      direction: rtl;
+    }
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .header {
+      margin-bottom: 1.75rem;
+      text-align: center;
+    }
+    h1.title {
+      font-family: "David", "David Libre", "Times New Roman", serif;
+      font-size: 26pt;
+      font-weight: 700;
+      margin-bottom: 0.35rem;
+      text-align: center;
+    }
+    .credits {
+      font-family: "David", "David Libre", "Times New Roman", serif;
+      font-size: 22pt;
+      font-weight: 400;
+      text-align: center;
+      line-height: 1.35;
+      margin: 0.08rem 0;
+    }
+    .lyrics {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.75rem 2rem;
+      justify-content: center;
+      align-items: start;
+      text-align: center;
+    }
+    .verse {
+      font-family: "David", "David Libre", "Times New Roman", serif;
+      font-size: 20pt;
+      line-height: 1.45;
+      text-align: center;
+    }
+    .verse p {
+      margin: 0.15rem 0;
+      text-align: center;
+    }
+    .verse p.label {
+      font-weight: 700;
+      margin-bottom: 0.35rem;
+    }
+    @media (max-width: 800px) {
+      .lyrics { grid-template-columns: 1fr; gap: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <h1 class="title">אֶצְלֵנוּ בַּגַּן</h1>
+      <p class="credits">מִלִּים וְלַחַן: מֵאִיר בַּנַּאי</p>
+    </header>
+    <section class="lyrics" aria-label="מילות השיר">
+      <div class="verse">
+        <p class="label">בַּיִת 1</p>
+        <p>אֶצְלֵנוּ בַּגַּן יֵשׁ הֲמוֹן יְלָדִים,</p>
+        <p>אֶת חֶלְקָם אֲנִי אוֹהֵב.</p>
+        <p>אֶת חֶלְקָם אֲנִי לֹא מַכִּיר.</p>
+        <p>אֲבָל מִי לֹא שָׁמַע עַל הָאֹמֶץ שֶׁל רָן,</p>
+        <p>הוּא הֲכִי מָהִיר בַּחוֹל, הוּא הֲכִי חָזָק בַּגַּן,</p>
+        <p>אֲבָל יֵשׁ לוֹ סוֹד אֶחָד שֶׁפָּחַד הוּא לְגַלּוֹת –</p>
+        <p>שֶׁהוּא כָּל כָּךְ מְאֻהָב בְּאַחַת הַיַּלְדוֹת.</p>
+      </div>
+      <div class="verse">
+        <p class="label">פִּזְמוֹן 1–2</p>
+        <p>אָז בַּלֵּילוֹת קָרִים</p>
+        <p>עִם פָּנָס מִתַּחַת לַשְּׂמִיכָה הֵם מְדַבְּרִים</p>
+        <p>וְהוּא מְגַלֶּה לָהּ מָה הִיא בִּשְׁבִילוֹ.</p>
+        <p>כָּל עוֹלָמוֹ, מֻגָּן מִתַּחַת לַשְּׂמִיכָה.</p>
+      </div>
+      <div class="verse">
+        <p class="label">בַּיִת 2</p>
+        <p>אֶצְלֵנוּ בַּגַּן יֵשׁ הַרְבֵּה חֲבוּרוֹת.</p>
+        <p>יֵשׁ כָּאֵלֶּה נֶחְשָׁבִים, יֵשׁ כָּאֵלֶּה שֶׁפָּחוֹת,</p>
+        <p>אֲבָל מִי לֹא שָׁמַע עַל קוֹפְצֵי הַנַּדְנֵדוֹת,</p>
+        <p>מְרִיעִים לָהֶם כַּפַּיִם, מְלַמְּדִים אוֹתָם לִנְחֹת,</p>
+        <p>מוּרָמִים עַל נֵס הַדֶּגֶל, גַּאֲוַת כָּל הָאֵזוֹר,</p>
+        <p>רַק לִפְעָמִים כְּשֶׁהֵם קוֹפְצִים רָחוֹק –</p>
+        <p>הֵם שׁוֹכְחִים לַחֲזֹר.</p>
+      </div>
+      <div class="verse">
+        <p class="label">בַּיִת 3</p>
+        <p>אֶצְלֵנוּ בַּגַּן נִפְרָדִים בְּשִׂמְחָה,</p>
+        <p>כִּי הַיּוֹם לֹא אָרֹךְ,</p>
+        <p>וְנִפְגָּשִׁים שׁוּב מָחָר,</p>
+        <p>חוּץ מֵאֵלֶּה שֶׁפִּתְאוֹם</p>
+        <p>לֹא חוֹזְרִים יוֹתֵר לַגַּן,</p>
+        <p>אָמְרוּ לִי שֶׁהֵם רַק עָבְרוּ דִּירָה</p>
+        <p>מֵעֵבֶר לֶעָנָן.</p>
+      </div>
+      <div class="verse">
+        <p class="label">פִּזְמוֹן 3</p>
+        <p>אָז בַּלֵּילוֹת קָרִים עִם פָּנָס מִתַּחַת לַשְּׂמִיכָה,</p>
+        <p>הֵם מְדַבְּרִים וְהוּא מְגַלֶּה לָהּ מָה הִיא בִּשְׁבִילוֹ,</p>
+        <p>הִיא בּוֹכָה שֶׁהוּא מַצִּיעַ לָהּ לִהְיוֹת</p>
+        <p>כָּל עוֹלָמוֹ בְּעֶרֶב שֶׁלִּפְנֵי הַמִּלְחָמָה.</p>
+      </div>
+      <div class="verse">
+        <p class="label">סִיּוּם</p>
+        <p>אֶצְלֵנוּ בַּגְּדוּד יֵשׁ הֲמוֹן יְלָדִים,</p>
+        <p>אֶת חֶלְקָם אֲנִי אוֹהֵב,</p>
+        <p>וְנִפְגָּשִׁים שׁוּב מָחָר.</p>
+        <p>אֶת חֶלְקָם, אֲנִי לֹא אַכִּיר.</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
